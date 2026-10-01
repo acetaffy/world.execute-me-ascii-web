@@ -1,4 +1,4 @@
-// MV.Canvas — the cell grid, mirrored from player.py's Canvas class.
+// MV.Canvas - the cell grid, mirrored from player.py's Canvas class.
 //
 // Contract (parity-critical):
 //  - cells[y][x] is a [char, styleIndex] pair; a wide glyph writes the char

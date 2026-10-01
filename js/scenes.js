@@ -1,4 +1,4 @@
-// MV.scenes — the scene/animation layer, ported from scenes.py.
+// MV.scenes - the scene/animation layer, ported from scenes.py.
 //
 // Conventions (audited by tools/check_port_coverage.py):
 //  - names and signatures mirror scenes.py exactly and are declared as

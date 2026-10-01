@@ -1,4 +1,4 @@
-// MV.Film — the whole-frame composition, mirrored from player.py's Film.
+// MV.Film - the whole-frame composition, mirrored from player.py's Film.
 //
 // render(t, w, h, paused, offset, help_on, ready) is a pure function of its
 // arguments plus MV.LYRICS / MV.SPECTRUM / MV.CONFIG: no cross-frame state,

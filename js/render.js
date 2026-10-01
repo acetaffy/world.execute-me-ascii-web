@@ -1,11 +1,11 @@
-// MV.Renderer — draws MV.Canvas cell grids onto a 2D canvas (browser only).
+// MV.Renderer - draws MV.Canvas cell grids onto a 2D canvas (browser only).
 //
 // The terminal cell grid maps 1:1 to a fixed pixel grid: cellW is measured
 // from the font's own 'M' advance, cellH is twice cellW (the terminal's 2:1
 // cell aspect), so every ellipse and box-drawing line keeps its shape. Wide
 // (East-Asian) glyphs are scaled horizontally to exactly two cells; the
 // shade blocks █▓▒░ and the half blocks ▌▐ are drawn as rectangles instead
-// of font glyphs — the same trick terminals use and immune to font gaps.
+// of font glyphs - the same trick terminals use and immune to font gaps.
 (function (root) { 'use strict';
 var MV = root.MV || (root.MV = {});
 var py = MV.py;

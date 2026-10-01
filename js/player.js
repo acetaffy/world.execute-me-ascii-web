@@ -12,9 +12,9 @@ var FPS = 24;
 var AUDIO_CANDIDATES = ['media/song.flac', '../media/song.flac'];
 
 // Credit where it is due: the original song and lyrics are Mili's, and this
-// page only ships the visual player — the audio never leaves your machine.
+// page only ships the visual player - the audio never leaves your machine.
 console.log(
-  '%cworld.execute(me); —ascii%c\n' +
+  '%cworld.execute(me); -ascii%c\n' +
   'A terminal-style ASCII music video for Mili\'s "world.execute(me);".\n' +
   'Source: https://github.com/yym8224961/world.execute-me-ascii\n' +
   'Web version: https://github.dev/acetaffy/world.execute-me-ascii-web\n' +
@@ -178,7 +178,7 @@ function main() {
 
   (function tryNext() {
     if (!AUDIO_CANDIDATES.length) {
-      overlayNote.textContent = 'media/song.flac not found — put the audio file next to this page in a media/ folder, then reload.';
+      overlayNote.textContent = 'media/song.flac not found - put the audio file next to this page in a media/ folder, then reload.';
       overlay.classList.remove('hidden');
       return;
     }
@@ -187,7 +187,7 @@ function main() {
 
   // Phones have no keyboard: a touch is the start gesture and toggles pause
   // afterwards; it also unlocks the audio element while it still buffers,
-  // since play() must ride on a user gesture. Mouse/pen input is left alone —
+  // since play() must ride on a user gesture. Mouse/pen input is left alone -
   // on the desktop the keyboard stays in charge, exactly like the terminal.
   doc.addEventListener('pointerdown', function (event) {
     if (event.pointerType !== 'touch') return;

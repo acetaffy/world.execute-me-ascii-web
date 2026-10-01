@@ -1,4 +1,4 @@
-// MV.PlayerCore — the playback state machine, DOM-free on purpose.
+// MV.PlayerCore - the playback state machine, DOM-free on purpose.
 //
 // Mirrors the semantics of player.py's run loop (start slate, pause toggle,
 // seek clamps, chapter jumps, lyric stepping, subtitle offset, volume, the
@@ -77,7 +77,7 @@ PlayerCore.prototype.stepLyric = function (direction) {
 };
 
 PlayerCore.prototype.adjustOffset = function (delta) {
-  // Python: round(offset + 0.1, 2) — correctly rounded decimal, ties to even.
+  // Python: round(offset + 0.1, 2) - correctly rounded decimal, ties to even.
   this.offset = Number(MV.py.pyFixed(this.offset + delta, 2));
   return 'offset';
 };

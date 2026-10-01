@@ -1,4 +1,4 @@
-# world.execute(me); —ascii（网页版）
+# world.execute(me); -ascii（网页版）
 
 Mili《world.execute(me);》的字符动画，浏览器版本：终端风格的 ASCII 画面与原曲同步播放，含歌词字幕、频谱与章节演出。
 
