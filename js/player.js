@@ -17,7 +17,7 @@ console.log(
   '%cworld.execute(me); -ascii%c\n' +
   'A terminal-style ASCII music video for Mili\'s "world.execute(me);".\n' +
   'Source: https://github.com/yym8224961/world.execute-me-ascii\n' +
-  'Web version: https://github.dev/acetaffy/world.execute-me-ascii-web\n' +
+  'Web version: https://github.com/acetaffy/world.execute-me-ascii-web\n' +
   'The original terminal player was made with GPT-6 Astra.\n' +
   'The browser port was made with DeepSeek-V4.1-Flash.\n' +
   'Personal, non-commercial tribute and archival project: no additional rights to \n' +
